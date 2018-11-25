@@ -1,8 +1,16 @@
-// part 2 lecture 3
+// assignment 1
+var money = +prompt("Ваш бюджет на месяц?");
+var time = prompt("Введите дату в формате YYYY-MM-DD");
+var expensesString = prompt("Введите обязательную статью расходов в этом месяце");
+var expensesNumber = +prompt("Во сколько обойдется?");
 
-var leftBorderWidth =1;
-let second = 2;
-const pi = 3.14;
-console.log(leftBorderWidth);
-console.log(second);
-alert("Hello World!");
+var appData = {
+    budget: money,
+    timeData: time,
+    expenses: expensesString + " " + expensesNumbe,
+    optionalExpenses:,
+    income: [],
+    savings: false
+}
+
+alert(appData);
