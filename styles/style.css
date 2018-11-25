@@ -1,0 +1,13 @@
+body {
+    background-color: #87a3ff;
+    font-size:32px;
+    font-family: monospace;
+}
+
+p {
+    display:block;
+    width:50px;
+    margin: 100px auto;
+    background: aqua;
+    color:red;
+}
